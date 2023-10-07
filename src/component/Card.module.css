@@ -72,14 +72,14 @@
 }
 
 .card .back {
-    background: rgb(15, 75, 255);
+    background: rgb(84, 63, 62);
     font-size: 100px;
     transition: 0.3s ease all;
 }
 
 
 .btn {
-    background: rgb(15, 75, 255);
+    background: rgb(17, 87, 21);
     color: white;
     cursor: pointer;
     font-size: 20px;
