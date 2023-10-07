@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import styles from './Card.module.css';
 
 
@@ -74,7 +74,7 @@ function Card() {
     return (
         <div className={styles.container}>
             <h1 className={styles.title}>Game</h1>
-            <p className={styles.moves}>Зробленно ходів: {moves}</p>
+            <p className={styles.moves}>Move made: {moves}</p>
             <div className={styles.cards}>
 
                 {
@@ -115,7 +115,7 @@ function Card() {
             <button
                 className={styles.btn}
                 onClick={handleGameRestart}
-            >Спробувати ще!</button>
+            >Try more!</button>
         </div>
 
     )
