@@ -73,7 +73,7 @@ function Card() {
 
     return (
         <div className={styles.container}>
-            <h1 className={styles.title}>Card Game</h1>
+            <h1 className={styles.title}>Game</h1>
             <p className={styles.moves}>Зробленно ходів: {moves}</p>
             <div className={styles.cards}>
 
